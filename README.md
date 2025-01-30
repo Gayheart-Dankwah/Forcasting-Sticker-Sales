@@ -7,7 +7,7 @@ This project aims to forcast stickers sales in different countries.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Dataset](#dataset)
-- [Exploratory Data Analysis](#Exploratory Data Analysis)
+- [Exploratory Data Analysis](#EDA)
 - [Installation](#Installation)
 - [Usage](#usage)
 - [Model Evaluation](#model-evaluation)
@@ -51,7 +51,7 @@ Investigates the relationship between the target variable and other features.
 
 ## Predictive Modeling
 The predictive modeling section includes the implementation of two models:
-### Autoregressive Integration Moving Average (ARIMA)
+### Autoregressive Integrated Moving Average (ARIMA)
 A traditional model for time series forcasting.
 
 ### Random Forest Regressor
@@ -68,8 +68,8 @@ An ensemble learning method for Regression tasks.
 ## Model Evaluation
 The performance of the models is evaluated using Mean Absolute Percentage error(MAPE).
 ## Results
-Mean absolute percentage error score: 7.88%
-The model performance was impressive and great.
+* Mean absolute percentage error score: 7.88%
+* The model performance was impressive and great since the average deviation between the Actual and the predicted was 7.88%
 
 ## Deployment
 * Flask API is greatly recommended
@@ -79,5 +79,5 @@ I welcome  all contributions from professionals and individuals. use
 
 ## Contact
 Email: gayheartdankwah133@gmail.com
-LinkedIn: www.link
+LinkedIn: [linkedIn](https://www.linkedin.com/in/gayheart-dankwah-9525451a8/)
 
