@@ -7,8 +7,10 @@ This project aims to forcast stickers sales in different countries.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Dataset](#dataset)
+- [Exploratory Data Analysis](#Exploratory Data Analysis)
+- [Installation](#Installation)
 - [Usage](#usage)
-- [Model Training](#model-training)
+- [Model Evaluation](#model-evaluation)
 - [Results](#results)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
@@ -31,5 +33,51 @@ This project is a Machine learning-Time Series project to prefict sticker sales 
 - **Shape:** 230130 rows, 5 columns
 - **Preprocessing:**  
   - Sine Encoding method was used to capture seasonality patterns
-- variabeam
+- variables:
+- * date- date of purchase
+  *  Country
+  *  Store
+  *  Product
+  *  num_sold - number of stickers sold
+# Exploratory Data Analysis
+The EDA section includes the following analyses:
+
+### Univariate Analysis
+Explores the distribution of individual features using visualizations.
+
+### Bivariate Analysis
+Investigates the relationship between the target variable and other features.
+
+
+## Predictive Modeling
+The predictive modeling section includes the implementation of two models:
+### Autoregressive Integration Moving Average (ARIMA)
+A traditional model for time series forcasting.
+
+### Random Forest Regressor
+An ensemble learning method for Regression tasks.
+
+
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+
+## Usage
+1. Ensure the dataset file `train.csv` is in the same directory as the Python script.
+2. Run the Python script
+## Model Evaluation
+The performance of the models is evaluated using Mean Absolute Percentage error(MAPE).
+## Results
+Mean absolute percentage error score: 7.88%
+The model performance was impressive and great.
+
+## Deployment
+* Flask API is greatly recommended
+## Contributing
+I welcome  all contributions from professionals and individuals. use
+* pull request on GitHub
+
+## Contact
+Email: gayheartdankwah133@gmail.com
+LinkedIn: www.link
 
