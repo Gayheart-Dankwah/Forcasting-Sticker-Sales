@@ -1,7 +1,7 @@
 # **Forcasting-Sticker-Sales**
 This project aims to forcast stickers sales in different countries.
 
-![Project Screenshot](link-to-screenshot-if-applicable)
+![Project Screenshot](cute-stickers-heart-flower-star-more_123891-161446.jpg)
 
 ## **Table of Contents**
 - [Introduction](#introduction)
@@ -19,7 +19,7 @@ This project aims to forcast stickers sales in different countries.
 ---
 
 ## **Introduction**
-This project is a Machine learning-Time Series project to prefict sticker sales in different countries such as **norway, Kenya,etc**. The model is built with **ARIMA**
+This project is a Machine learning-Time Series project to predict sticker sales in different countries such as **norway, Kenya,etc**. The model is built with **ARIMA**
 
 
 
@@ -40,7 +40,7 @@ This project is a Machine learning-Time Series project to prefict sticker sales 
   *  Product
   *  num_sold - number of stickers sold
 # Exploratory Data Analysis
-The EDA section includes the following analyses:
+The EDA section includes the following analysis:
 
 ### Univariate Analysis
 Explores the distribution of individual features using visualizations.
